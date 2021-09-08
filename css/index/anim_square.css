@@ -55,7 +55,7 @@ display: block;
 overflow: hidden;
 align-items: center;
 justify-content: center;
-background-color: #554646;
+background-color: #6610f2;
 }
 
 .home-section .home-content {
@@ -92,7 +92,7 @@ background: rgb(255, 0, 0);
 }
 
 .home-section .circles2 li {
-background: rgb(238, 255, 0);
+background: #007bff;
 }
     
 .home-section .circles li {
