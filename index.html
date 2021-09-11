@@ -15,7 +15,7 @@
         </p>  
       </div>
       <br><br><br><br>
-      <button onclick="onOpen()" class="myButton">Continue</button>
+      <button onclick="window.location.href='https://www.akh826.com/home/';" class="myButton">Continue</button>
 
       <dialog class="Dialog" id="Dialog">
         <form method="dialog">
@@ -66,18 +66,6 @@
 </html>
 
 <script>
-  function myFunction() {
-    console.log("test");
-  }
-
-  var Dialog = document.getElementById('Dialog');
-  function onOpen() {
-  if (typeof Dialog.showModal === "function") {
-    Dialog.showModal();
-  } else {
-    alert("On Progress");
-  }
-}
 
 var words = document.getElementsByClassName('word');
 var wordArray = [];
